@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>नेपाली पात्रो</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Mukta:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bikram-sambat-js@1.0.2/dist/bikram-sambat.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="top-bar">
+
+      <div>
+        <h1 id="monthYear"></h1>
+        <p id="todayText"></p>
+      </div>
+
+      <div class="clock" id="clock"></div>
+
+    </div>
+
+    <div class="nav-buttons">
+      <button id="prevBtn">◀</button>
+      <button id="nextBtn">▶</button>
+    </div>
+
+    <div class="weekdays">
+      <div>आइत</div>
+      <div>सोम</div>
+      <div>मंगल</div>
+      <div>बुध</div>
+      <div>बिही</div>
+      <div>शुक्र</div>
+      <div>शनि</div>
+    </div>
+
+    <div class="calendar" id="calendar"></div>
+
+  </div>
+
+
+  <!-- MODAL -->
+
+  <div class="modal hidden" id="modal">
+
+    <div class="modal-content">
+
+      <h2 id="modalDate"></h2>
+
+      <input type="text" id="eventTitle" placeholder="कार्यक्रम शीर्षक">
+
+      <textarea id="eventDesc" placeholder="विवरण"></textarea>
+
+      <div class="modal-buttons">
+        <button id="saveBtn">सेभ</button>
+        <button id="deleteBtn">डिलिट</button>
+        <button id="closeBtn">बन्द</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="toast"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

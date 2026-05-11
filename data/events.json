@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Dashain Festival",
+      "date": "2024-10-03",
+      "type": "festival",
+      "description": "Biggest festival of Nepal"
+    },
+    {
+      "id": 2,
+      "title": "Tihar Festival",
+      "date": "2024-10-31",
+      "type": "festival",
+      "description": "Festival of lights"
+    }
+  ]
+}
